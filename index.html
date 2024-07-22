@@ -19,14 +19,29 @@
                 <li><a href="#" data-section="photos">photos</a></li>
             </ul>
             <div class="social-icons">
-                <a href="#" class="icon"><i class="fab fa-github"></i></a>
-                <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
-                <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/cnrjm" target="_blank" class="icon"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="weather-time">
+                <select id="country-select">
+                    <option value="">Select Country</option>
+                </select>
+                <div id="weather-display"></div>
+                <div id="time-display"></div>
+            </div>
+            <div class="translate">
+                <select id="language-select">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                    <option value="de">Deutsch</option>
+                    <!-- Add more languages as needed -->
+                </select>
             </div>
         </nav>
         <main id="content">
         </main>
     </div>
     <script src="script.js"></script>
+    <script src="dist/bundle.js"></script>
 </body>
 </html>
